@@ -15,7 +15,7 @@
     <title>@yield('title')-e瞳创意工坊</title>
 </head>
 <body>
-    <div id="app">
+    <div id="app" class="{{ route_page() }}-class">
         @include('layouts._header')
         <div class="container">
             @include('shared._messages')

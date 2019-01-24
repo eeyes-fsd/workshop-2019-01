@@ -11,4 +11,4 @@
 |
 */
 
-Route::view('/', 'pages.root');
+Route::view('/', 'pages.root')->name('root');
